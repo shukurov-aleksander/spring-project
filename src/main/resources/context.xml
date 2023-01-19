@@ -3,11 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
-    <context:component-scan base-package="cl.lab.spring.bean"/>
-
-    <bean id="doorBean" class="cl.lab.spring.bean.Door">
-        <property name="color" value="Yellow"/>
-        <property name="height" value="25"/>
-    </bean>
-
+<!--    <context:component-scan base-package="cl.lab.spring.bean"/>-->
+<!--    <bean class="cl.lab.spring.bfpp.ReplaceBeanFactoryPostProcessor"/>-->
+<!--    <bean class="cl.lab.spring.bpp.SunAnnotationBeanPostProcessor"/>-->
 </beans>
